@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(100deg, #0077b5, #00a8e8);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.header-content img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
+
+.header-content h1 {
+    margin: 10px 0 5px;
+}
+
+.header-content p {
+    font-size: 18px;
+}
+
+/* Sections */
+section {
+    background: white;
+    width: 80%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    color: #0077b5;
+    margin-bottom: 15px;
+}
+
+/* Skills */
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills li {
+    background: #e6f2fa;
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+/* Experience Cards */
+.card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-left: 4px solid #0077b5;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+/* Contact */
+#contact p {
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+    margin-top: 40px;
+}
